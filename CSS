@@ -1,4 +1,4 @@
-    <style> 
+html
         .head1 { 
             font-size:40px; 
             color:#000000; 
@@ -50,5 +50,4 @@
         } 
         .body_sec { 
             margin-left:20px; 
-        } 
-    </style> 
+        }  
