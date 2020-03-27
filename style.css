@@ -1,13 +1,14 @@
-<html>
         .head1 { 
-            font-size:40px; 
+            font-size:50px; 
             color:#000000; 
-            font-weight:bold; 
+            font-weight:bold;
+            text-align: center; 
         } 
         .head2 { 
             font-size:17px; 
             margin-left:10px; 
-            margin-bottom:15px; 
+            margin-bottom:15px;
+            text-align: center;
         } 
         body { 
             margin: 0 auto; 
@@ -18,7 +19,7 @@
         .menu {    
             position: sticky; 
             top: 0; 
-            background-color: #009900; 
+            background-color: #a6a6a6; 
             padding:10px 0px 10px 0px; 
             color:white; 
             margin: 0 auto; 
@@ -38,17 +39,34 @@
         } 
         footer { 
             width: 100%; 
-            bottom: 0px; 
+            bottom: -200px; 
             background-color: #000; 
             color: #fff; 
-            position: absolute; 
+            position:relative; 
             padding-top:20px; 
             padding-bottom:50px; 
             text-align:center; 
             font-size:30px; 
             font-weight:bold; 
         } 
-        .body_sec { 
-            margin-left:20px; 
-        }  
-</html>
+        .body_sec h3{ 
+            margin-left:350px;
+            margin-right:350px;
+            margin-top:-1000px;
+            font-size:25px;
+            font-weight:normal;
+            
+        }
+        .left {
+          padding-left:20px;
+          padding-top:20px;
+        }
+        .right {
+          float:right;
+          padding-right:20px;
+          padding-top:20px;
+        }
+        .side_title {
+          font-size:35px;
+          font-weight:bold;
+        }
